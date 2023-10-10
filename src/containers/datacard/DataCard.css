@@ -1,0 +1,30 @@
+.CardContainer {
+    width: 98%;
+}
+
+.CardContainerTop {
+    margin-top: 4em;
+    width: 98%;
+}
+
+.Card {
+    width: 230px;
+    float: left;
+    margin: .5em 0 .5em 1em;
+    max-height: 370px;
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.CardImgage {
+    height: 255px;
+    object-fit: cover;
+}
+
+.CardBody {
+    background-color: #33b5e5;
+    color: white;
+    border-top: 1px solid lightgray;
+    border-bottom-left-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+}
